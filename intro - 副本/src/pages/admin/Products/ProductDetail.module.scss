@@ -1,0 +1,23 @@
+.detailContent {
+  .imageSection {
+    margin-bottom: 24px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+
+    .productImage {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+  }
+
+  :global {
+    .ant-descriptions {
+      .ant-descriptions-item-label {
+        width: 150px;
+      }
+    }
+  }
+} 

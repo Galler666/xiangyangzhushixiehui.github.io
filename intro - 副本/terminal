@@ -1,0 +1,4 @@
+npx create-react-app sunward-tobacco --template typescript
+cd sunward-tobacco
+npm install @reduxjs/toolkit react-redux react-router-dom antd axios sass @ant-design/icons moment crypto-js echarts @types/crypto-js
+npm install --save-dev typescript @types/node @types/react @types/react-dom @types/redux @types/react-redux @types/react-router-dom @types/echarts

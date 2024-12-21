@@ -1,0 +1,16 @@
+.rechargeCard {
+  max-width: 500px;
+  margin: 0 auto;
+  
+  .qrCodeContainer {
+    text-align: center;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 8px;
+
+    img {
+      max-width: 200px;
+      margin-bottom: 16px;
+    }
+  }
+} 

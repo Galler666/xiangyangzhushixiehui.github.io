@@ -1,0 +1,30 @@
+.loginForm {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+
+  :global {
+    .ant-form-item:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.forgotPassword {
+  float: right;
+  color: #1890ff;
+}
+
+.register {
+  text-align: center;
+  margin-top: 16px;
+  
+  span {
+    margin-right: 8px;
+    color: #666;
+  }
+  
+  a {
+    color: #1890ff;
+  }
+} 
